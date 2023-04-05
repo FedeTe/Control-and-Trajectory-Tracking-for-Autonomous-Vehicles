@@ -5,9 +5,9 @@ In this project it has to be designed a PID controller to perform vehicle trajec
  * the Behavior Planner
  * the Motion Planner. 
  
- ## Step 1
- ## Step 2
- ## Step 3
+ ## Step 1: Build the PID controller object
+ ## Step 2: PID controller for throttle
+ ## Step 3: PID controller for steer
 ![Alt text](Pics/ss2.png "Overtake")
 ![Alt text](Pics/ss1.png "Free drive")
 
