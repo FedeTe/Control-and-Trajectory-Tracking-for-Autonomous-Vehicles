@@ -7,6 +7,7 @@ In this project it has to be designed a PID controller to perform vehicle trajec
  
 ## Step 1: Build the PID controller object
 Complete the TODO in the pid_controller.h and pid_controller.cpp.
+<br>
 Here's a screenshot of the CARLA simulator.
 ![Alt text](Pic/Step1.png "Step 1")
 ## Step 2: PID controller for throttle
