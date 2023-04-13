@@ -22,13 +22,13 @@ Here's a screenshot of the CARLA simulator.
 ![Alt text](Pic/step4_2.png "Control")
 
 - Add the plots to your report and explain them (describe what you see)
-  - lala
+  - The first plot shows the steering error and the second plot shows how the actuators are engaged. 
 - What is the effect of the PID according to the plots, how each part of the PID affects the control command?
-  - lala 
+  - As suggested by their names: Proportional term produces an output proportional to the error,  Differential term produces an output related to the derive of the error and reduce the oscillation, Integral term produces an output related to the error over time and improve convergence.
 - How would you design a way to automatically tune the PID parameters?
-  - lala
+  - Twiddle method can be used to automatically tune the PID controller.
 - PID controller is a model free controller, i.e. it does not use a model of the car. Could you explain the pros and cons of this type of controller?
-  - lala
+  - PID controller is generic and maybe easier to use but not considering the model of the car could introduce errors and affect performances.
 
 ## Reference code
 [main.cpp](Code/main.cpp)
